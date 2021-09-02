@@ -27,7 +27,7 @@ h1{
     text-align: center;
     color: #00B1F0;
     text-shadow: 1px 1px 2px #00B1F0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 h2{
@@ -61,6 +61,9 @@ a.letras:hover{
 }
 a::before{
     content: "";
+}
+p.esp{
+    display: inline-block;
 }
  
 /*paleta de cores #0DFDFD #00FA6 #0BE3A6 C #0BE32C #34FD0D*/
