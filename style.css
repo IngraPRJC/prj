@@ -65,6 +65,8 @@ a::before{
 p.esp{
     display: inline-block;
 }
- 
+ h2.sub{
+     display: inline-block;
+ }
 /*paleta de cores #0DFDFD #00FA6 #0BE3A6 C #0BE32C #34FD0D*/
  
