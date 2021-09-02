@@ -57,7 +57,7 @@ a.letras:hover::before{
 }
 a.letras:hover{
     font-size: 25px;
-    text-decoration: none;
+    
 }
 a::before{
     content: "";
@@ -67,6 +67,20 @@ p.esp{
 }
  h2.sub{
      display: inline-block;
+     text-indent: 500px;
+     color: #34FD0D;
+     font-style: italic;
+     text-decoration-color: #34FD0D;
+     text-decoration: underline;
+ }
+ h2#s{
+     text-indent: 200px;
+ }
+ a.letras{
+    text-decoration: none;
+ }
+ img.i{
+     text-indent: 100px;
  }
 /*paleta de cores #0DFDFD #00FA6 #0BE3A6 C #0BE32C #34FD0D*/
  
