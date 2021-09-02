@@ -54,7 +54,7 @@ a.letras:hover::before{
     content: "";
 }
 a.letras:hover{
-    font-size: 19px;
+    font-size: 25px;
 }
 a::before{
     content: "";
