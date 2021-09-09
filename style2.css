@@ -4,7 +4,6 @@ h1{
     color: #00B1F0;
     text-shadow: 1px 1px 2px #00B1F0;
     font-family: 'Times New Roman', Times, serif;
-    
 }
 h2{
     color: #0381af;
@@ -17,20 +16,9 @@ h3{
 }
 p{
     text-align: justify;
-    font-size: larger;
-    
+    font-size: larger;   
+   
 }
-h1#t > p{
-    font-size: 20px;
-    font-weight: normal;
-    font-style: italic;
-    color: black;
-    display: none;
-    text-align: center;
-    
-}
-h1#t:hover > p{
-    display: block;
-}
-/*paleta de cores #0DFDFD #00FA6 #0BE3A6 C #0BE32C #34FD0D*/
+
+/*paleta de cores #0DFDFD #00FA6C #0BE3A6  #0BE32C #34FD0D*/
 
