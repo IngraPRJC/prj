@@ -2,6 +2,7 @@ a{
     text-decoration: none;
     color: #00B1F0;
     
+    
 }
 h1{
     text-align: center;
@@ -16,13 +17,15 @@ header > div > h1{
     font-size: 3em;
     text-shadow: 1px 1px 1px white;
 }
-header > div > p{
+p{
     font-style: italic;
     color: white;
     text-align: center;
 }
 body{
     margin: 0px;
+    background-image: linear-gradient(-45deg, #1b6e0b, #0BE32C);
+   
 }
 header{
     background-image: linear-gradient(-45deg, #1b6e0b, #0BE32C);
@@ -30,11 +33,10 @@ header{
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    height: 600px;
+    height: auto;
+    text-align: center;
 }
-img#lixeiras{
- padding-left: 150px;
-}
+
 h1.b{
     border: 8.3px outset #34FD0D;
     color: #00B1F0;
@@ -50,6 +52,7 @@ h1.b:hover{
 main{
     background-image: linear-gradient(-45deg, #1b6e0b, #0BE32C);
     height: 153px;
+    text-align: center;
 }
 h1#c{
     
