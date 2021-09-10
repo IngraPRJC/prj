@@ -77,14 +77,13 @@ body > h1, h2{
     text-shadow: 1px 1px #00B1F0;
 }
 footer{
-    color:  #0BE3A6;
-    background-color: #34FD0D;
+    text-align:center;
 }
 div#botão{
     border: 4px solid #00B1F0;
     width: 130px;
     font: small-caps;
-    margin: auto;
+    margin-left: 680px;
     background-color: #34FD0D;
 }
 div#botão:hover{
