@@ -23,15 +23,17 @@ main{
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
     width: 1510px;
-    height: 849px;
+    height: 1500px;
     padding: auto;
     margin-bottom: 10px;
 }
 h2{
     color: #00B1F0; 
+    margin-left: 8px;
 }
 p{
     font-size: larger;
+    margin-left: 8px;
 }
 h1{
     color: #00B1F0; 
@@ -89,6 +91,9 @@ div#botão:hover{
 }
 a.botão:hover{
     font-size: 1em;
+}
+div.imgs{
+    text-align: center;
 }
  
 /*<main>
