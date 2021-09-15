@@ -22,10 +22,11 @@ main{
     background-color: #b9ffeb;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
-    width: 1510px;
-    height: 1500px;
-    padding: auto;
-    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+    
+    margin: auto;
 }
 h2{
     color: #00B1F0; 
@@ -56,8 +57,7 @@ article.q{
     border: 10px outset #34FD0D;
     background-color: #0BE3A6;
     margin-right: 0px;
-    width: 729px;
-    height: 212px;
+    padding: 10px 95px;
     
 }
 h2.l{
@@ -69,7 +69,7 @@ h2#l2{
 }
 
 article#o{
-    margin-left: 4px;
+    margin-left: 25px;
 }
 
 body > p, h1, h2{
@@ -95,7 +95,29 @@ a.botão:hover{
 div.imgs{
     text-align: center;
 }
- 
+button{
+    border: 3px outset #00B1F0;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    cursor: default;
+}
+article#botão{
+    text-align: center;
+    
+}
+div#img > img{
+    
+    margin-bottom: 5px;
+}
+div#img{
+    text-align: center;
+    
+}
 /*<main>
         <section>
             <article>

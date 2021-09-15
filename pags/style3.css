@@ -1,0 +1,22 @@
+
+div > p{
+    display: none;
+}
+hr#divisao{
+    border: 0;
+    color: white;
+}
+hr#divisao1{
+    border: 4px ridge white;
+    color: white;
+    width: 10px;
+    
+}
+div#menu{
+    background-color:  #34FD0D;
+    position: absolute;
+}
+button#b1{
+    background-color: #34FD0D;
+
+}
