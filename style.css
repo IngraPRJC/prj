@@ -72,6 +72,20 @@ h2#l2{
 article#o{
     margin-left: 25px;
 }
+@media (max-width: 680px){
+    article#o{
+        margin-left: 0px;
+    }
+    article.q{
+        display: inline-block;
+        text-align: center;
+        border: 10px outset #34FD0D;
+        background-color: #0BE3A6;
+        margin-right: 0px;
+        padding: 10px 65px;
+        
+    }
+}
 
 body > p, h1, h2{
     margin-left: 4px;
