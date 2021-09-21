@@ -184,6 +184,7 @@ div#v{
     main{
         padding: 0px;
         background-color: var(--cor3);
+        margin: 0px;
     
     }
     div#v{
