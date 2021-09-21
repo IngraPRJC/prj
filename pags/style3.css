@@ -94,7 +94,7 @@ body{
 main{
     min-width: 300px;
     max-width: 1410px;
-    height: 100vh;
+    height: auto;
     margin: auto;
     background-color: var(--cor1);
     position: static;
@@ -120,7 +120,7 @@ p{
 }
 footer{
     margin-top: 290px;
-    width: 73.5%;
+    width: 98.5%;
     background-color: var(--cor6);
     border: 10px outset var(--cor5);
 
@@ -189,4 +189,12 @@ div#v{
     div#v{
         text-align: start;
     }
+    footer{
+        margin-top: 290px;
+        width: 71%;
+        background-color: var(--cor6);
+        border: 10px outset var(--cor5);
+    
+    }
+    
 }
