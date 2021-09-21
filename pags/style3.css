@@ -17,6 +17,7 @@ header{
     background-image: linear-gradient(45deg, var(--cor2)2%, var(--cor5));
     color: white;
     margin: auto;
+    
 }
 a{
     color: white;
@@ -41,6 +42,9 @@ nav{
     font-family: system-ui, -apple-system, Helbetica, Arial, Helvetica, sans-serif;
     background-image: linear-gradient(-45deg, var(--cor2), var(--cor5));
     height: 8vh;
+    width: 100%;
+    position: fixed;
+    
    
 }
 .nav-list{
@@ -92,7 +96,8 @@ main{
     max-width: 1410px;
     height: 100vh;
     margin: auto;
-    background-color: var(--cor1)
+    background-color: var(--cor1);
+    position: static;
 
 }
 a#esc{
@@ -124,6 +129,7 @@ footer{
 h1.prt{
     color: var(--cor4);
     margin-bottom: 20px;
+    padding-top: 8vh;
 }
 div#v{
     text-align: center;
@@ -146,7 +152,7 @@ div#v{
         right: 0;
         position: absolute;
         width: 25vw;
-        height: 100%;
+        height: 100vh;
         background-image: linear-gradient(to top, var(--cor2) 1%, var(--cor5));
         flex-direction: column;
         align-items: center;
@@ -173,7 +179,7 @@ div#v{
         font-family: system-ui, -apple-system, Helbetica, Arial, Helvetica, sans-serif;
         background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
         height: 8vh;
-       
+        
     }
     main{
         padding: 0px;
