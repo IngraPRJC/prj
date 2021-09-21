@@ -2,7 +2,7 @@
     --cor1: #0DFDFD;
     --cor2: #00a748;
     --cor3: rgb(102, 220, 226);  
-    --cor4: #0BE32C; 
+    --cor4: #0cc728; 
     --cor5: #34FD0D;
     --cor6: #00853a;
     --cor7: rgb(214, 212, 150);
@@ -94,7 +94,7 @@ body{
 main{
     min-width: 300px;
     max-width: 1410px;
-    height: auto;
+    
     margin: auto;
     background-color: var(--cor1);
     position: static;
