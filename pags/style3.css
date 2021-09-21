@@ -5,7 +5,7 @@
     --cor4: #0BE32C; 
     --cor5: #34FD0D;
     --cor6: #00853a;
-    
+    --cor7: rgb(214, 212, 150);
 }
 *{
     margin: 0px;
@@ -82,13 +82,15 @@ nav{
 }
 body{
     overflow-x: hidden;
+    background-color: var(--cor7);
 }
 .nav-list.active{
     transform: translateX(0%);
 }
 main{
-    width: 75%;
-    background-color: var(--cor3);
+    width: 1510px;
+    margin: auto;
+    background-color: var(--cor1)
 
 }
 a#esc{
@@ -117,8 +119,12 @@ footer{
 
 }
 
-body{
-    background-color: var(--cor3);
+h1.prt{
+    color: var(--cor4);
+    margin-bottom: 20px;
+}
+div#v{
+    text-align: center;
 }
 @media (max-width: 680px) {
     p{
@@ -166,5 +172,10 @@ body{
         background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
         height: 8vh;
        
+    }
+    main{
+        width: 75%;
+        background-color: var(--cor3);
+    
     }
 }
