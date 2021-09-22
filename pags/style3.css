@@ -65,7 +65,7 @@ nav{
     letter-spacing: 3px;
     margin-left: 0px;
     width: 25vw;
-    height: 25%;
+    height: 8vh;
     text-align: center;
 }
 .nav-list li:hover{
@@ -94,7 +94,7 @@ body{
 main{
     min-width: 300px;
     max-width: 1410px;
-    
+    padding-top: 8vh;
     margin: auto;
     background-color: var(--cor1);
     position: static;
@@ -126,13 +126,20 @@ footer{
 
 }
 
-h1.prt{
+.prt{
     color: var(--cor4);
     margin-bottom: 20px;
-    padding-top: 8vh;
+   
 }
 div#v{
     text-align: center;
+}
+h2{
+    text-align: left;
+}
+h2.prt{
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 @media (max-width: 680px) {
     p{
@@ -197,5 +204,12 @@ div#v{
         border: 10px outset var(--cor5);
     
     }
+    .nav-list li{
+        letter-spacing: 3px;
+        margin-left: 0px;
+        width: 25vw;
+        height: 25%;
+        text-align: center;
+    }
     
-}
+} 
