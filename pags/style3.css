@@ -141,6 +141,7 @@ h2.prt{
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+
 @media (max-width: 680px) {
     p{
         margin: 0px;

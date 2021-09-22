@@ -65,5 +65,11 @@ h1#w{
 img{
     margin-bottom: 80px;
 }
+div#sig{
+    display: none;
+}
+#oi:hover > div#sig{
+    display: inline;
+}
 /*paleta de cores*/
 
