@@ -68,8 +68,8 @@ img{
 div#sig{
     display: none;
 }
-#oi:hover > div#sig{
-    display: inline;
+div#oi:hover > a > picture > div#sig{
+    display: block;
 } 
 /*paleta de cores*/
 

@@ -61,6 +61,15 @@ article.q{
     padding: 10px 95px;
     
 }
+ul.q{
+    display: inline-block;
+    text-align: center;
+    border: 10px outset #34FD0D;
+    background-color: #0BE3A6;
+    margin-right: 0px;
+    padding: 10px 50px;
+    
+}
 h2.l{
     padding-left: 21px;
     text-align: center;
@@ -84,6 +93,13 @@ article#o{
         margin-right: 0px;
         padding: 10px 65px;
         
+    }
+    ul.q{
+        display: block;
+        text-align: center;
+        border: 0px;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0px;
     }
 }
 
