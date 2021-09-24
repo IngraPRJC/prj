@@ -145,10 +145,14 @@ h2.prt{
 #m.exp{
     font-size: 1.5em;
 }
+#h1{
+    text-align: center;
+}
 @media (max-width: 680px) {
     p{
         margin: 0px;
     }
+    
     footer{
     margin-top: 158px;
     width: 72%;
@@ -193,9 +197,11 @@ h2.prt{
         
     }
     main{
-        padding: 0px;
+        padding-top: 50px;
         background-color: var(--cor3);
         margin: 0px;
+        text-align: start;
+        width: 75%;
     
     }
     div#v{
