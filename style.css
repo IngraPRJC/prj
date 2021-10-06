@@ -29,6 +29,9 @@ main{
     
     margin: auto;
 }
+tr{
+    transition: 2s;
+}
 h2{
     color: #00B1F0; 
     margin-left: 8px;
@@ -77,9 +80,33 @@ h2.l{
 h2#l2{
     padding-left: 750px;
 }
+.nomes{
+    color: #00b1f0;
+    text-shadow: 1px 1px 1px 1px #00B1F0;
+    margin-left: 3px;
+    display: inline;
+}
 
 article#o{
     margin-left: 25px;
+}
+table {
+    border: 3px solid #34FD0D;
+    border-collapse: collapse;
+    
+    
+  }
+  th,
+tr,
+td {
+  border: 3px outset #34FD0D;;
+  color: #00B1F0;
+}
+#cont{
+    text-align: center;
+}
+input#nome{
+    padding: auto;
 }
 @media (max-width: 680px){
     article#o{
@@ -102,7 +129,9 @@ article#o{
         padding: 0px;
     }
 }
-
+#button{
+    text-align: center;
+}
 body > p, h1, h2{
     margin-left: 4px;
 }
@@ -149,6 +178,10 @@ div#img{
     text-align: center;
     
 }
+#img{
+    text-align: center;
+}
+
 /*<main>
         <section>
             <article>
