@@ -28,6 +28,7 @@ function adicionarEmpate(i){
 function adicionarDerrota(i){
   var jogador = jogadores[i]
   jogador.derrotas += 1
+  input.toLowerCase()
   if (cores[cor] == 'azul'){
     if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
         m.textContent = 'acertou'
@@ -110,7 +111,7 @@ function mudar(){
 
 function enviar(){
     var input = document.getElementById('vermelho').value
-    
+    input.toLowerCase()
     if (cores[cor] == 'azul'){
         if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
             m.textContent = 'acertou'
