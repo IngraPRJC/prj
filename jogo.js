@@ -1,5 +1,5 @@
 var cores = ['vermelho', 'amarelo', 'azul', 'marrom', 'verde', 'cinza']
-document.getElementById('enviar').disabled = false
+document.getElementById('mud').disabled = false
 var lm = -1
 var cor = (Math.random()*5).toFixed(0)
 
@@ -28,41 +28,12 @@ function adicionarEmpate(i){
 function adicionarDerrota(i){
   var jogador = jogadores[i]
   jogador.derrotas += 1
-  input = input.toLowerCase()
-  if (cores[cor] == 'azul'){
-    if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
-        m.textContent = 'acertou'
-        adicionarvitoria(lm)
-    }
-    }else if (cores[cor] == 'vermelho'){
-        if(input == "plástico"){
-            m.textContent = 'acertou'
-            adicionarvitoria(lm)
-        }
-    }else if (cores[cor] == 'verde'){
-        if(input == "vidro"){
-            m.textContent = 'acertou'
-            adicionarvitoria(lm)
-        }
-    }else if (cores[cor] == 'amarelo'){
-        if(input == "ferro" | input == "metal"){
-            m.textContent = 'acertou'
-            adicionarvitoria(lm)
-        }
-    }else if (cores[cor] == 'marrom'){
-        if(input == "orgânico" | input == "lixo orgânico"){
-            m.textContent = 'acertou'
-            adicionarvitoria(lm)
-        }
-    }else if (cores[cor] == 'cinza'){
-        if(input == "não recilável"){
-            m.textContent = 'acertou'
-            adicionarvitoria(lm)
-        }
-    exibir(jogadores)
+  jogador.vitorias = jogador.vitorias
+  
+  exibir(jogadores)
 }
  
-}
+
 function exibir(jogadores) {
     var element = ""
     for (var i = 0; i < jogadores.length; i++) {
@@ -111,8 +82,8 @@ function mudar(){
 }
 
 function enviar(){
-    var input = document.getElementById('vermelho').value
-    input = input.toLowerCase()
+    var input = document.getElementById('vermelho').value.toLowerCase()
+    
     console.log(input)
     if (cores[cor] == 'azul'){
         if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
@@ -120,7 +91,7 @@ function enviar(){
             adicionarvitoria(lm)
             exibir(jogadores)
         }else{
-            m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
+            m.textContent = "Errou"
             adicionarDerrota(lm)
             exibir(jogadores)
         }
@@ -130,7 +101,7 @@ function enviar(){
             adicionarvitoria(lm)
             exibir(jogadores)
         }else{
-            m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
+            m.textContent = "Errou"
             adicionarDerrota(lm)
             exibir(jogadores)
         }
@@ -140,7 +111,7 @@ function enviar(){
             adicionarvitoria(lm)
             exibir(jogadores)
         }else{
-            m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
+            m.textContent = "Errou"
             adicionarDerrota(lm)
             exibir(jogadores)
         }
@@ -150,7 +121,7 @@ function enviar(){
             adicionarvitoria(lm)
             exibir(jogadores)
         }else{
-            m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
+            m.textContent = "Errou"
             adicionarDerrota(lm)
             exibir(jogadores)
         }
@@ -160,7 +131,7 @@ function enviar(){
             adicionarvitoria(lm)
             exibir(jogadores)
         }else{
-            m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
+            m.textContent = "Errou"
             adicionarDerrota(lm)
             exibir(jogadores)
         }
@@ -170,7 +141,7 @@ function enviar(){
             adicionarvitoria(lm)
             exibir(jogadores)
         }else{
-            m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
+            m.textContent = "Errou"
             
             adicionarDerrota(lm)
             exibir(jogadores)
@@ -186,3 +157,34 @@ function finalizar(){
 }
 /*Azul: Papel e Papelão</span>Vermelho: Plástico</span>Verde: vidroAmarelo: metal</span><span style="margin-left: 10px;">Marrom: organico</span>Cinza: não reciclavel*/
 // criando um objeto que armazena propriedades diferentes
+/*if (cores[cor] == 'azul'){
+    if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
+        m.textContent = 'acertou'
+        adicionarvitoria(lm)
+    }
+    }else if (cores[cor] == 'vermelho'){
+        if(input == "plástico"){
+            m.textContent = 'acertou'
+            adicionarvitoria(lm)
+        }
+    }else if (cores[cor] == 'verde'){
+        if(input == "vidro"){
+            m.textContent = 'acertou'
+            adicionarvitoria(lm)
+        }
+    }else if (cores[cor] == 'amarelo'){
+        if(input == "ferro" | input == "metal"){
+            m.textContent = 'acertou'
+            adicionarvitoria(lm)
+        }
+    }else if (cores[cor] == 'marrom'){
+        if(input == "orgânico" | input == "lixo orgânico"){
+            m.textContent = 'acertou'
+            adicionarvitoria(lm)
+        }
+    }else if (cores[cor] == 'cinza'){
+        if(input == "não recilável"){
+            m.textContent = 'acertou'
+            adicionarvitoria(lm)
+        } */
+document.getElementById('enviar').disabled = false
