@@ -28,7 +28,7 @@ function adicionarEmpate(i){
 function adicionarDerrota(i){
   var jogador = jogadores[i]
   jogador.derrotas += 1
-  input.toLowerCase()
+  input = input.toLowerCase()
   if (cores[cor] == 'azul'){
     if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
         m.textContent = 'acertou'
@@ -111,55 +111,68 @@ function mudar(){
 
 function enviar(){
     var input = document.getElementById('vermelho').value
-    input.toLowerCase()
+    input = input.toLowerCase()
+    console.log(input)
     if (cores[cor] == 'azul'){
         if(input == "papel" | input == "papelão" | input == 'papel ou papelão'){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
+            exibir(jogadores)
         }else{
             m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
             adicionarDerrota(lm)
+            exibir(jogadores)
         }
     }else if (cores[cor] == 'vermelho'){
         if(input == "plástico"){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
+            exibir(jogadores)
         }else{
             m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
             adicionarDerrota(lm)
+            exibir(jogadores)
         }
     }else if (cores[cor] == 'verde'){
         if(input == "vidro"){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
+            exibir(jogadores)
         }else{
             m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
             adicionarDerrota(lm)
+            exibir(jogadores)
         }
     }else if (cores[cor] == 'amarelo'){
         if(input == "ferro" | input == "metal"){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
+            exibir(jogadores)
         }else{
             m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
             adicionarDerrota(lm)
+            exibir(jogadores)
         }
     }else if (cores[cor] == 'marrom'){
         if(input == "orgânico" | input == "lixo orgânico"){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
+            exibir(jogadores)
         }else{
             m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
             adicionarDerrota(lm)
+            exibir(jogadores)
         }
     }else if (cores[cor] == 'cinza'){
         if(input == "não recilável"){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
+            exibir(jogadores)
         }else{
             m.textContent = "Errou, se acertou, verifique a pontuação, e lembre-se de escrever tudo em letras minúsculas"
             
             adicionarDerrota(lm)
+            exibir(jogadores)
         }
     }
     input = document.getElementById('vermelho')
