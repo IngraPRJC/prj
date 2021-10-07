@@ -59,8 +59,9 @@ function adicionarDerrota(i){
             m.textContent = 'acertou'
             adicionarvitoria(lm)
         }
+    exibir(jogadores)
 }
-  exibir(jogadores)
+ 
 }
 function exibir(jogadores) {
     var element = ""
