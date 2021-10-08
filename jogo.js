@@ -151,11 +151,9 @@ function verificar(){
 function enviar(){
     var input = document.getElementById('vermelho').value.toLowerCase()
     var jogador = jogadores[lm]
-    if(jogador.vitorias == 5){
+    if(jogador.vitorias == 4){
         finalizar()
-    }
-    console.log(input)
-    if(jogador.vitorias != 5){
+    }else{        
         if (cores[cor] == 'azul'){
             if(input == "papel" | input == "papelão" | input == 'papel ou papelão' |input == "papel" & m.textContent == 'Errou'| input == "papelão" & m.textContent == 'Errou'| input == 'papel ou papelão' & m.textContent == 'Errou'){
             certo()
@@ -200,7 +198,10 @@ function enviar(){
             }else{
             errado()
             }
-    }   }
+    }
+}
+    
+
     input = document.getElementById('vermelho')
     input.value = " "
 }
@@ -210,7 +211,7 @@ function finalizar(){
       document.getElementById('env').disabled = true
       document.getElementById('enviar').disabled = false
       verificar()
-      var ati = 0
+
       
 }
 /*Azul: Papel e Papelão</span>Vermelho: Plástico</span>Verde: vidroAmarelo: metal</span><span style="margin-left: 10px;">Marrom: organico</span>Cinza: não reciclavel*/
