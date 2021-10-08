@@ -129,6 +129,10 @@ input#nome{
         background-color: rgba(0, 0, 0, 0);
         padding: 0px;
     }
+    body{
+        width: 100%;
+        margin: 0px;
+    }
 }
 #button{
     text-align: center;

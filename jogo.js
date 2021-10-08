@@ -151,7 +151,7 @@ function verificar(){
 function enviar(){
     var input = document.getElementById('vermelho').value.toLowerCase()
     var jogador = jogadores[lm]
-    if(jogador.vitorias == 5){
+    if(jogador.vitorias == 6){
         finalizar()
     }else{        
         if (cores[cor] == 'azul'){
