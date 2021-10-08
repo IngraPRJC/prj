@@ -1,5 +1,6 @@
 body{
     background-image: url(imgs/fundo.jpg);
+    overflow-x: hidden;
 }
 header{
     font-family: 'Times New Roman', Times, serif;
